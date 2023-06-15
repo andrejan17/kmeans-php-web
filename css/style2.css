@@ -1,0 +1,65 @@
+.btn1 {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.btn2 {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.add {
+  background-color: #4CAF50;
+}
+.add:hover {
+  background-color: rgba(70, 160, 73, 0.5);
+}
+.del {
+  background-color: #f44336;
+}
+.del:hover {
+  background-color: rgba(218, 25, 11, 0.5);
+}
+.prs {
+  background-color: #2196F3;
+}
+.prs:hover {
+  background-color: rgba(11, 125, 218, 0.5);
+}
+.edt {
+  background-color: #ff9800;
+}
+.edt:hover {
+  background-color: rgba(230, 138, 0, 0.5);
+}
+.default2:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+table {
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  margin-bottom: 0;
+  border: 1px solid #ddd;
+}
+th {
+  background-color: #fff;
+}
+
+th, td {
+  text-align: center;
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
